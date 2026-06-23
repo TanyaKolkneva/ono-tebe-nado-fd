@@ -41,7 +41,7 @@
 
 .header__logo {
   display: block;
-  width: 136px;
+  width: 138px;
 }
 
 .header__logo-image {
@@ -50,6 +50,7 @@
 
 .address {
   text-underline-offset: 4px;
+  line-height: 24.3px;
 }
 
 .header__address {
@@ -181,9 +182,15 @@
   gap: 25px;
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .card__lots {
+  display: flex;
   position: relative;
-  overflow: hidden;
   min-width: 334px;
   min-height: 596px;
   background-position: center;
@@ -199,6 +206,8 @@
   display: flex;
   flex-direction: column;
   justify-self: center;
+  justify-content: space-between;
+  margin-left: 40px;
 }
 
 .card__title {
@@ -239,6 +248,7 @@
 
 .lots__look-more {
   padding-top: 34px;
+    text-underline-offset: 3px;
 }
 
 .lots__look-more-link {
@@ -318,6 +328,7 @@
   display: flex;
   flex-direction: column;
   width: 264px;
+  font-size: 18px;
 }
 
 .footer__menu {
@@ -334,6 +345,10 @@
 .footer__menu-list {
   list-style: none;
   line-height: 22px;
+}
+
+.footer__menu-list-item {
+  text-underline-offset: 2px;
 }
 
 .footer__menu-link {
