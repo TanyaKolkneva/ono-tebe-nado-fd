@@ -21,11 +21,11 @@
   list-style-type: circle;
 }
 
-.no-underline {
+.header__menu-item-no-bullit {
   list-style: none;
 }
 
-.no-underline-content {
+.header__menu-link_active {
   text-decoration: none;
 }
 
@@ -50,7 +50,6 @@
 
 .address {
   text-underline-offset: 4px;
-  line-height: 24.3px;
 }
 
 .header__address {
@@ -172,14 +171,11 @@
 }
 
 .lots__card-list {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
   padding-left: 24px;
   padding-right: 24px;
-}
-
-.lots__card-list-item {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 25px;
 }
 
 .card {
@@ -248,7 +244,7 @@
 
 .lots__look-more {
   padding-top: 34px;
-    text-underline-offset: 3px;
+  text-underline-offset: 3px;
 }
 
 .lots__look-more-link {
